@@ -1,0 +1,8 @@
+﻿  main2.cpp
+  my_functions.cpp
+  Generating code
+  40 of 6214 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    39 functions were new in current compilation
+    372 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  least_sqaures_optimization.vcxproj -> C:\Users\alexr\Desktop\Visual Studio projects\leastsquares\least_sqaures_optimization\x64\Release\least_sqaures_optimization.exe
