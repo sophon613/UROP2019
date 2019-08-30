@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <Eigen/Dense>
+#include "functions.h"
 
 using namespace Eigen;
 

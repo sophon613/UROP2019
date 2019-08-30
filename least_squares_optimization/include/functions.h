@@ -1,3 +1,6 @@
+#include <Eigen/Dense>
+#include <iostream>
+#include <cmath>
 
 MatrixXd matrixGen(int rows, int cols);
 MatrixXd quaternionConv2R(double ANGLE, int x, int y, int z);

@@ -76,11 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\alexr\Desktop\C++libraries\eigen;C:\Users\alexr\Desktop\Least_squares_optimization2;C:\Users\alexr\Desktop\Least_squares_optimization2\src;C:\Users\alexr\Desktop\Least_squares_optimization2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\alexr\Desktop\C++libraries\eigen;$(SolutionDir)include;$(SolutionDir)src;$(SolutionDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\alexr\Desktop\Least_squares_optimization2;C:\Users\alexr\Desktop\Least_squares_optimization2\src;C:\Users\alexr\Desktop\Least_squares_optimization2\include;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir);$(SolutionDir)src;C:\Users\alexr\Desktop\C++libraries\eigen;$(SolutionDir)include;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
