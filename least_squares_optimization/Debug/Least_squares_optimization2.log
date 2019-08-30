@@ -1,0 +1,106 @@
+﻿  main.cpp
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,19): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,10): error C2146:  syntax error: missing ';' before identifier 'matrixGen'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(3,26): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(3,26): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(3,10): error C2146:  syntax error: missing ';' before identifier 'quaternionConv2R'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(4,34): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(4,34): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(4,10): error C2146:  syntax error: missing ';' before identifier 'predefinedTransformation'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(5,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(5,25): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(5,10): error C2146:  syntax error: missing ';' before identifier 'centroidFinding'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(6,15): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(6,15): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(6,10): error C2146:  syntax error: missing ';' before identifier 'findH'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(7,34): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(7,34): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(7,10): error C2146:  syntax error: missing ';' before identifier 'singleValueDecomposition'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(8,25): error C4430:  missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(8,25): error C2086:  'int MatrixXd': redefinition
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2): message :  see declaration of 'MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(8,10): error C2146:  syntax error: missing ';' before identifier 'findTranslation'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(14,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(14,18): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(14,11): error C2146:  syntax error: missing ';' before identifier 'points'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(14,11): error C2065:  'points': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(14,20): error C3861:  'matrixGen': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(22,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(22,13): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(22,11): error C2146:  syntax error: missing ';' before identifier 'R'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(22,11): error C2065:  'R': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(22,15): error C3861:  'quaternionConv2R': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,21): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,11): error C2146:  syntax error: missing ';' before identifier 'pointsNew'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,11): error C2065:  'pointsNew': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,48): error C2065:  'points': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,56): error C2065:  'R': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(28,23): error C3861:  'predefinedTransformation': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,21): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,11): error C2146:  syntax error: missing ';' before identifier 'centroids'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,11): error C2065:  'centroids': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,39): error C2065:  'points': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,47): error C2065:  'pointsNew': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(32,23): error C3861:  'centroidFinding': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(34,23): error C2065:  'centroids': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,13): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,11): error C2146:  syntax error: missing ';' before identifier 'H'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,11): error C2065:  'H': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,21): error C2065:  'points': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,29): error C2065:  'pointsNew': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,40): error C2065:  'centroids': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(38,15): error C3861:  'findH': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(40,23): error C2065:  'H': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,13): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,11): error C2146:  syntax error: missing ';' before identifier 'X'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,11): error C2065:  'X': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,40): error C2065:  'H': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(42,15): error C3861:  'singleValueDecomposition': identifier not found
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(44,23): error C2065:  'X': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,11): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,13): error C2872:  'MatrixXd': ambiguous symbol
+C:\Users\alexr\Desktop\Least_squares_optimization2\include\functions.h(2,1): message :  could be 'int MatrixXd'
+C:\Users\alexr\Desktop\C++libraries\eigen\Eigen\src\Core\Matrix.h(449,1): message :  or       'Eigen::MatrixXd'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,11): error C2146:  syntax error: missing ';' before identifier 't'
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,11): error C2065:  't': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,31): error C2065:  'centroids': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,42): error C2065:  'X': undeclared identifier
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(48,15): error C3861:  'findTranslation': identifier not found
+  functions.cpp
+  Generating Code...
+C:\Users\alexr\Desktop\Least_squares_optimization2\main.cpp(50,23): error C2065:  't': undeclared identifier
